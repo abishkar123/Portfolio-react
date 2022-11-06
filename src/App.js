@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+
+import { Button } from 'bootstrap';
 import './App.css';
+import { AboutMe } from './component/AboutMe';
+import { ContactMe } from './component/ContactMe';
+import { Experience } from './component/Experience';
+import { Hero } from './component/Hero';
+import { Skills } from './component/Skills';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div class="wrapper">
+<Hero/>
+    
+     
+
+
+
+{/* <!-- Skills section  --> */}
+
+<Skills/>
+
+{/* <!-- Experiences  --> */}
+
+
+<Experience/>
+
+{/*!-- About me Section --> */}
+
+
+<AboutMe/>
+
+{/* <!-- Contact Section --> */}
+
+
+<ContactMe/>
+
+
+ {/* <!-- footer section --> */}
+ <footer class="footer bg-dark text-light text-center py-5 mt-5">
+  Copyritght &copy; all reserved. Made with Abishkar Rai.
+</footer>
+
+</div>
+
+     
+    
   );
 }
 
