@@ -1,9 +1,10 @@
 import React from 'react'
 import { Row, Container,Col } from 'react-bootstrap';
+import { Layout } from './Layout';
 
 export const ContactMe = () => {
   return (
-
+<Layout>
   <div id="contact" className='contact rounted-5 py-2'>
   <div class="title">
     <span>Contact Me</span>
@@ -21,6 +22,7 @@ export const ContactMe = () => {
     </Row>
     </Container>
 </div>
+</Layout>
 
   );
 };

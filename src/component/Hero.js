@@ -1,13 +1,15 @@
 import React from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import my from "../asests/my.png";
+import { Layout } from './Layout';
 import TopNav from './TopNav';
 
 export const Hero = () => {
   return (
-    <div ClassName="hero">
-        <TopNav/>
-        <Container>
+
+    <div className="hero">
+      <Layout>
+      <Container className='mt-5'>
         <div className="row mt-5 py-3">
        <div className="col-md-5 text-center order-md-2">
        
@@ -23,8 +25,9 @@ export const Hero = () => {
         <Button className="btn btn-danger">Download Resume</Button>
         </div>
       </div>
-</Container>
-
+       </Container>
+      </Layout>
+        
 </div>
 
   );

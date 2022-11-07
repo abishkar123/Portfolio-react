@@ -39,4 +39,9 @@
   font-style: italic;
   font-weight: bold;
 }
-
+.to-nav{
+  background:  linear-gradient(180deg, #C1C2C9 0%, rgba(193, 194, 201, 0.984499) 4.19%, rgba(193, 194, 201, 0.962418) 9.23%, rgba(193, 194, 201, 0.27) 14.06%);
+}
+.layout{
+ min-height: 70vh;
+}
