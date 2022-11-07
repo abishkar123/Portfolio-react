@@ -1,8 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Layout } from './Layout';
 
 export const Skills = () => {
   return (
+    <Layout>
     <div className="wrapper mt-3 mb-5" >
   <div className="title">
     <span>Skills</span>
@@ -15,13 +17,11 @@ export const Skills = () => {
     <div> <i className="fa-brands fa-html5 text-danger"></i>HTML</div>
     <div><i className="fa-brands fa-react text-primary"></i>React.js</div>
     
-    
-
-
+  
   </div>
 
 </Container>
 </div>
-
+</Layout>
   );
 };

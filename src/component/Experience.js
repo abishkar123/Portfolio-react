@@ -2,17 +2,19 @@ import React from 'react'
 import { Row, Container,Col } from 'react-bootstrap';
 import project1 from "../asests/project1.JPG";
 import project2 from "../asests/project2.JPG";
+import { Layout } from './Layout';
 
 export const Experience = () => {
   return (
+    <Layout>
     <div className="Experience">
     <div className="title mt-3">
       <span>Experiences</span>
     </div>
   
   <Container>
-    <Row class="mb-5">
-      <Col md="6" class ="mb-3">
+    <Row className="mb-3">
+      <Col md="6" className ="mb-3">
         <img src={project1} width="100%"/>
       </Col>
       <Col>
@@ -56,5 +58,6 @@ export const Experience = () => {
    
   </Container>
   </div>
+  </Layout>
   );
 };

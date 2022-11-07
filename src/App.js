@@ -7,40 +7,30 @@ import { Experience } from './component/Experience';
 import { Hero } from './component/Hero';
 import { Skills } from './component/Skills';
 
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import { Footer } from './component/Footer';
+
 
 function App() {
   return (
-      <div class="wrapper">
-<Hero/>
-    
-     
+    <div class="wrapper">
+      <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Hero />} />
+      <Route path= "/Skills" element={<Skills />} />
+      <Route path= "/Experience" element={<Experience />} />
+      <Route path= "/ContactMe" element={<ContactMe />} />
+
+      <Route path= "/AboutMe" element={<AboutMe />} />
+      
+      </Routes>
+      </BrowserRouter>
 
 
-
-{/* <!-- Skills section  --> */}
-
-<Skills/>
-
-{/* <!-- Experiences  --> */}
-
-
-<Experience/>
-
-{/*!-- About me Section --> */}
-
-
-<AboutMe/>
-
-{/* <!-- Contact Section --> */}
-
-
-<ContactMe/>
-
-
- {/* <!-- footer section --> */}
- <footer class="footer bg-dark text-light text-center py-5 mt-5">
-  Copyritght &copy; all reserved. Made with Abishkar Rai.
-</footer>
 
 </div>
 
