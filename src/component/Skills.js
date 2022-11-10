@@ -5,11 +5,12 @@ import { Layout } from './Layout';
 export const Skills = () => {
   return (
     <Layout>
-    <div className="wrapper mt-3 mb-5" >
+     <Container id="skills" className='py-3 mb-5'>
+      <Row>
+        <Col>
   <div className="title">
     <span>Skills</span>
   </div>
-<Container>
   <div className="icons">
     <div> <i className="fa-brands fa-square-js text-warning"></i>Javascript</div>
     <div> <i className="fa-brands fa-css3-alt text-primary"></i>CSS </div>
@@ -19,9 +20,10 @@ export const Skills = () => {
     
   
   </div>
+        </Col>
+      </Row>
 
 </Container>
-</div>
 </Layout>
   );
 };

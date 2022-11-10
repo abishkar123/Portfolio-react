@@ -6,14 +6,14 @@ import { Layout } from './Layout';
 
 export const Experience = () => {
   return (
-    <Layout>
+    <Layout >
     <div className="Experience">
-    <div className="title mt-3">
+    <div className="title">
       <span>Experiences</span>
     </div>
   
   <Container>
-    <Row className="mb-3">
+    <Row className="mb-5">
       <Col md="6" className ="mb-3">
         <img src={project1} width="100%"/>
       </Col>
@@ -21,7 +21,7 @@ export const Experience = () => {
       <div>
         <h3>Project 1</h3>
         <div>
-        <a href="#!" target="_blank">
+        <a href="https://abishkar123.github.io/fontendpage/" target="_blank">
           <i className="fa-brands fa-github text-primary"></i>
           </a></div>
           <p className="mt-2">Tech used: HTML5, CSS3</p>
