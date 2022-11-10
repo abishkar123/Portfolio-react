@@ -10,7 +10,6 @@ export const AboutMe = () => {
   <div className="title mt-3">
     <span>About Me</span>
   </div>
-
   <Container>
   <Row>
     <Col mb="3" className="mb-9">
@@ -19,10 +18,10 @@ export const AboutMe = () => {
 
     <Col md="7">
       <p className='p2 py-5'>I recently finished my BIT Program and i am currenly doing job ready program at dented code
-       and i am have solving solving nature.i have been doing Programming from last 4 years and i have knowledge about 
+       and i have problem solving nature.i have been doing Programming from last 4 years and i have knowledge about 
        HTML5, CSS3, JavaScript, PHP, MySql, React.js and more.
       <hr/>
-      My habit are watching movies, reading book and playing football.....
+      Also i like to watch movies, reading books and play football.....
       </p>
     </Col>
   </Row>

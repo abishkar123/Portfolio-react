@@ -1,15 +1,13 @@
 .wrapper{
   min-height: 60vh;
-  
-  background: linear-gradient(180deg, #C1C2C9 0%, rgba(193, 194, 201, 0.984499) 4.19%, rgba(193, 194, 201, 0.962418) 9.23%, rgba(193, 194, 201, 0.27) 14.06%);
+  background: linear-gradient(180deg, #55565b 0%, rgba(156, 156, 161, 0.984) 4.19%, rgba(193, 194, 201, 0.962418) 9.23%, rgba(193, 194, 201, 0.27) 14.06%);
 }
 
 .title{
   text-align: center;
-  font-size: 2rem;
-  margin-top: 2rem;
-  background: rgba(193, 194, 201, 0.984499);
-
+  font-size: 3rem;
+  font-weight: bold;
+ 
 }
 
 /* .title div{
@@ -40,8 +38,15 @@
   font-weight: bold;
 }
 .to-nav{
-  background:  linear-gradient(180deg, #C1C2C9 0%, rgba(193, 194, 201, 0.984499) 4.19%, rgba(193, 194, 201, 0.962418) 9.23%, rgba(193, 194, 201, 0.27) 14.06%);
+   background: linear-gradient(180deg, #55565b 0%, rgba(156, 156, 161, 0.984) 4.19%, rgba(193, 194, 201, 0.962418) 9.23%, rgba(193, 194, 201, 0.27) 14.06%); 
 }
 .layout{
- min-height: 70vh;
+ min-height: 75vh;
+}
+
+.contact{
+  background: rgb(83, 100, 81);
+}
+.Link{
+  font-size: bolder;
 }
